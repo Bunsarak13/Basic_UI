@@ -1,0 +1,10 @@
+com/student/basic_ui/databinding/ActivityMainBinding.java
+ com.student.basic_ui.databinding.ActivityMainBinding
+com/student/basic_ui/databinding/ContentMainBinding.java
+ com.student.basic_ui.databinding.ContentMainBinding
+com/student/basic_ui/databinding/FragmentFirstBinding.java
+ com.student.basic_ui.databinding.FragmentFirstBinding
+com/student/basic_ui/BuildConfig.java
+ com.student.basic_ui.BuildConfig
+com/student/basic_ui/databinding/FragmentSecondBinding.java
+ com.student.basic_ui.databinding.FragmentSecondBinding

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Documents\\Ynov\\Mobile\\BasicUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "D:\\Documents\\Ynov\\Mobile\\BasicUI\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "D:\\Documents\\Ynov\\Mobile\\BasicUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "D:\\Documents\\Ynov\\Mobile\\BasicUI\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "D:\\Documents\\Ynov\\Mobile\\BasicUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Documents\\Ynov\\Mobile\\BasicUI\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Documents\\Ynov\\Mobile\\BasicUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\Documents\\Ynov\\Mobile\\BasicUI\\app\\src\\main\\res\\layout\\content_main.xml"
+    }
+]
