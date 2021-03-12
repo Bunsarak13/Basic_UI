@@ -16,7 +16,12 @@
     <string name="second_activity_hello">"Secondary Activity "</string>
     <string name="to_secondary_activity">Activité 2</string>
     <string name="text_alert_dialog">Dialog Alert</string>
-    <string name="show">Hello dialog alert</string>
-    <string name="alert_dialog">Alert Dialog</string>
+    <string name="show">Accéder au site</string>
+    <string name="alert_dialog">Pages Web</string>
     <string name="message_main_fragment">Welcome Main Fragment</string>
+    <string name="le_monde">Le Monde</string>
+    <string name="national_geographic">National Geographic</string>
+    <string name="le_monde_website">www.lemonde.fr/</string>
+    <string name="national_geographic_website">www.nationalgeographic.fr/</string>
+    <string name="main_fragment_welcome">Ecran d\'accueil</string>
 </resources>

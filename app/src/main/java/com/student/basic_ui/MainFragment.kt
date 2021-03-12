@@ -21,6 +21,10 @@ class MainFragment : Fragment() {
 
     private lateinit var binding: FragmentMainBinding
 
+    val websites = arrayOf("Le Monde","National Geographic")
+
+    lateinit var websiteSelect:String
+
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
             savedInstanceState: Bundle?
@@ -37,9 +41,15 @@ class MainFragment : Fragment() {
 
     private fun showAlertDialog() {
         context?.materialAlertDialog {
-            setTitle("Page Web")
-
-
+            setTitle("Sites Internet")
+            setItems(websites) {
+                dialog, which ->
+                when(websites[which]) {
+                    "Le Monde" -> websiteSelect = getString(R.string.le_monde_website)
+                    "National Geographic" -> websiteSelect = getString(R.string.national_geographic_website)
+                }
+                browse(websiteSelect)
+            }
             okButton { showAlertDialog() }
             cancelButton()
         }?.onShow {
@@ -51,7 +61,7 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.mainText.text = "Hello WORLD"
+        binding.mainText.text = getString(R.string.main_fragment_welcome)
 
         view.findViewById<Button>(R.id.button_first).setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
@@ -59,7 +69,7 @@ class MainFragment : Fragment() {
 
         // Button to link to website
         binding.buttonToLink.setOnClickListener {
-            browse("www.lemonde.fr/")
+            browse(websiteSelect)
         }
 
         binding.alertDialog.setOnClickListener {
