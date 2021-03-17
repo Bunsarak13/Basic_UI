@@ -29,9 +29,10 @@
         android:id="@+id/button_second_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="18dp"
         android:text="@string/to_secondary_activity"
-        app:layout_anchor="@+id/include2"
-        app:layout_anchorGravity="center"/>
+        app:layout_anchor="@+id/include2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"

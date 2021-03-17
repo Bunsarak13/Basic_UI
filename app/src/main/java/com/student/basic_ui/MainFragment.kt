@@ -12,6 +12,7 @@ import androidx.navigation.fragment.findNavController
 import com.student.basic_ui.databinding.FragmentMainBinding
 import splitties.alertdialog.appcompat.*
 import splitties.alertdialog.material.materialAlertDialog
+import splitties.toast.toast
 
 
 /**
@@ -68,12 +69,16 @@ class MainFragment : Fragment() {
         }
 
         // Button to link to website
-        binding.buttonToLink.setOnClickListener {
-            browse(websiteSelect)
+        binding.websiteYnov.setOnClickListener {
+            browse("www.ynov.com/campus/aix-en-provence/")
         }
 
         binding.alertDialog.setOnClickListener {
             showAlertDialog()
+        }
+
+        binding.toast.setOnClickListener{
+            toast(getString(R.string.toast_text))
         }
 
     }
