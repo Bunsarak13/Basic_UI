@@ -40,6 +40,7 @@ class MainFragment : Fragment() {
         startActivity(browser)
     }
 
+    // Dialog box with website selection
     private fun showAlertDialog() {
         context?.materialAlertDialog {
             setTitle("Sites Internet")
