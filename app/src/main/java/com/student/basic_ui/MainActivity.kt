@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(findViewById(R.id.toolbar))
 
-        binding.fab.setOnClickListener{
+        binding.mail.setOnClickListener{
             sendEmail("bunsarak.pen@ynov.com", "Hello BasicUI", "Message send to Kotlin App Basic UI")
         }
 
