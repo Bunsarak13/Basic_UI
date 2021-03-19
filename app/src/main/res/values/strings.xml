@@ -17,6 +17,8 @@
     <string name="checkbox1">CheckBox 1</string>
     <string name="label_2">Checkbox 2</string>
     <string name="label_3">Checkbox 3</string>
-    <string name="open_snack_bar">Open Snack Bar</string>
+    <string name="open_snack_bar">Snack Bar</string>
     <string name="text_label">YOUHOUUUU</string>
+    <string name="pref_sound">key</string>
+    <string name="label_sound">titre</string>
 </resources>

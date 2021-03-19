@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'org.jetbrains.kotlin.android.extensions'
 }
 
 android {
@@ -9,6 +10,10 @@ android {
 
     buildFeatures {
         viewBinding true
+    }
+
+    androidExtensions {
+        experimental = true
     }
 
     defaultConfig {
@@ -37,6 +42,9 @@ android {
 }
 
 dependencies {
+    //noinspection GradleCompatible
+    implementation 'com.android.support:preference-v7:24.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation("com.louiscad.splitties:splitties-toast:$splitties_version")
     implementation("com.louiscad.splitties:splitties-alertdialog:$splitties_version")
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
